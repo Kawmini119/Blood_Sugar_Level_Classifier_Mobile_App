@@ -1,0 +1,33 @@
+name: diabetes_mobile_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+  google_fonts: ^6.1.0
+  mockito: ^5.4.4
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+ 
+    
+    
+  flutter_lints: ^2.0.0
+  
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/bad.png
+    - assets/images/good.png
+    - assets/images/input3.png
+    - assets/images/input4.png
+    - assets/images/input5.png
